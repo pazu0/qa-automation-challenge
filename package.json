@@ -1,0 +1,33 @@
+{
+  "name": "qa-automation-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:cypress && npm run test:integration",
+    "test:cypress": "cypress run --browser chrome --headed",
+    "test:integration": "jest ./integration",
+    "lint": "eslint . --ignore-pattern node_modules/"
+  },
+  "keywords": [],
+  "author": "Patrick Azu",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "cypress": "^10.1.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "jest": "^28.1.1",
+    "supertest": "^6.2.3"
+  }
+}
