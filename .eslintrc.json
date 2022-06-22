@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "jest": true,
+    "cypress/globals": true
+  },
+  "extends": [
+    "airbnb-base",
+    "prettier"
+  ],
+  "plugins": [
+    "cypress"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "getter-return": "off",
+    "consistent-return": "off",
+    "prefer-rest-params": "off",
+    "func-names": "off",
+    "no-param-reassign": "off"
+  }
+}
