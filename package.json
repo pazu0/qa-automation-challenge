@@ -16,10 +16,13 @@
     "testEnvironment": "node",
     "coveragePathIgnorePatterns": [
       "/node_modules/"
-    ]
+    ],
+    "testTimeout": 100000
   },
   "dependencies": {
-    "cypress": "^10.1.0"
+    "@faker-js/faker": "^6.3.0",
+    "cypress": "^10.1.0",
+    "supertest": "^6.2.3"
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "^15.0.0",
@@ -27,7 +30,6 @@
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^26.5.3",
-    "jest": "^28.1.1",
-    "supertest": "^6.2.3"
+    "jest": "^28.1.1"
   }
 }
