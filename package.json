@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run test:cypress && npm run test:integration",
-    "test:cypress": "cypress run --browser chrome --headed",
+    "test:cypress": "cypress run --browser chrome --headed --record --key 21bf24a3-a0ac-4cbf-b605-234c7913ab76",
     "test:integration": "jest ./integration",
-    "lint": "eslint . --ignore-pattern node_modules/"
+    "lint": "eslint . --ignore-pattern node_modules/",
+    "cypress:open": "cypress open"
   },
   "keywords": [],
   "author": "Patrick Azu",

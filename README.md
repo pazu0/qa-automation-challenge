@@ -1,5 +1,5 @@
 # qa-automation-challenge
-
+[![qa-automation-challenge](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/o2fido&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/o2fido/runs)
 # Test Plan
 - https://github.com/guardrailsio/qa-automation-challenge#integration-testing-exercise
 
